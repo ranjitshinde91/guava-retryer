@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'guava-retryer'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "com.github.rholder:guava-retrying:2.0.0"
+    compile group: 'com.google.guava', name: 'guava', version: '20.0'
+
+
+}
